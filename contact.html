@@ -8,6 +8,17 @@
             background-color: #1b1d23;
             color: white;
         }
+        textarea {
+            height: 100px;
+        }
+        input[type="text"], textarea {
+            width: 100%; 
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: #333;
+            border: none;
+            color: white;
+        }        
     </style>
 </head>
 <body>
@@ -24,7 +35,7 @@
             <label for="lname">Apellido:</label>
             <input type="text" id="lname" name="lastname"><br><br>
             <label for="comments">Comentarios:</label>
-            <textarea id="comments" name="comments"></textarea>
+            <textarea id="comments" name="comments" placeholder="Deja tu comentario"></textarea>
             <input type="submit" value="Enviar"><br><br>
         </form>
     </div>
